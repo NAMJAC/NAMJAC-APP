@@ -7,7 +7,7 @@ echo "${PWOUT}"
 read -p "Press any key to continue..."
 
 // Install Software
-apt install -y mysql-server mysql-client-8.0 mysql-connector-python-py3
+apt install -y mysql-server mysql-client-8.0 mysql-connector-python-py3 python3-pip
 
 // Set-up mySQL Server
 {
