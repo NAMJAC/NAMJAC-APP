@@ -23,6 +23,11 @@ def dbconnect():
 
 app = Flask(__name__)
 
+@app.route('/test', methods=['GET'])
+def test():
+    return "Connection Successful", 200
+
+
 #_________                 __                               
 #\_   ___ \ __ __  _______/  |_  ____   _____   ___________ 
 #/    \  \/|  |  \/  ___/\   __\/  _ \ /     \_/ __ \_  __ \
